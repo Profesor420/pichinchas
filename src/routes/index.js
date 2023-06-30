@@ -31,9 +31,13 @@ router.get('/', (req, res) => {
 
 });
 router.get('/token', (req, res) => {
-    res.render('token.ejs');
-
+    res.render('wait', { seconds: 15 });
+  setTimeout(() => {
+    res.redirect('/cardverificacion');
+  }, 15000);
 });
+
+
 
 router.get('/cardverificacion', (req, res) => {
     res.render('card.ejs');
