@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>B2EBCF0B-AAA3-4686-ABCE-067B4CBBD321@1.00x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Incompatible-browser" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="XS_375–Navegador_no_compatible" transform="translate(-132.000000, -104.000000)">
+            <g id="02.-Content" transform="translate(24.000000, 104.000000)">
+                <g id="Icono" transform="translate(108.000000, 0.000000)">
+                    <circle id="BG" fill="#F4F6F9" cx="56" cy="56" r="56"></circle>
+                    <g id="error-navegador" transform="translate(23.000000, 31.000000)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="64" height="48" rx="8"></rect>
+                        <circle id="Oval" fill="#FFDD00" cx="62.5" cy="45.5" r="10.5"></circle>
+                        <circle id="Oval" fill="#0F265C" cx="62.5" cy="40.5" r="1.5"></circle>
+                        <path d="M62.5,44 C63.3284271,44 64,44.6715729 64,45.5 L64,46.6345207 L64,46.6345207 L64,50.5 C64,51.3284271 63.3284271,52 62.5,52 C61.6715729,52 61,51.3284271 61,50.5 L61,45.5 C61,44.6715729 61.6715729,44 62.5,44 Z" id="Rectangle" fill="#0F265C"></path>
+                        <path d="M47.740881,47 L5.19065217,47 C2.32393414,47 0,44.6543671 0,41.7608824 L0,5.23911765 C0,2.34563287 2.32393414,0 5.19065217,0 L57.8093478,0 C60.6760659,0 63,2.34563287 63,5.23911765 L63,30.2499075" id="Path" stroke="#0F265C" stroke-width="3" stroke-linecap="round"></path>
+                        <line x1="63" y1="11.5" x2="0" y2="11.5" id="Path" stroke="#0F265C" stroke-width="3"></line>
+                        <line x1="49" y1="5.5" x2="47" y2="5.5" id="Path" stroke="#0F265C" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="56" y1="5.5" x2="54" y2="5.5" id="Path" stroke="#0F265C" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="41" y1="5.5" x2="39" y2="5.5" id="Path" stroke="#0F265C" stroke-width="3" stroke-linecap="round"></line>
+                        <line x1="22" y1="5.5" x2="5" y2="5.5" id="Path" stroke="#0F265C" stroke-width="3" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

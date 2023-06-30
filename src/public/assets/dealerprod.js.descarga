@@ -1,0 +1,16 @@
+(function (s, h, ci, si, wi) {
+  s = s + Math.random().toString(36).substring(7) + '/login.js?clientId=' + ci + '&websiteId=' + wi;
+  window._dmo = { src: s, host: h, sessionId: si, clientId: ci, websiteId: wi };
+  var a = document.createElement('script');
+  a.type = 'text/javascript';
+  a.src = s;
+  a.async = !0;
+  var b = document.getElementsByTagName('script')[0];
+  b.parentNode.insertBefore(a, b);
+})(
+  'https://sp005.pichincha.com:443/scriptdealer/script/v1/',
+  'https://sp005.pichincha.com:443',
+  'a5b45154-88cf-438d-98f7-696f9aab6ddf',
+  null,
+  '25',
+);

@@ -1,0 +1,5 @@
+const isExplorer = (/msie\s|trident\/|edge\//i.test(navigator.userAgent))
+if (isExplorer) {
+    const docu = document.getElementById('main-error-window');
+    docu.style.display = 'block';
+}

