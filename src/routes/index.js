@@ -25,7 +25,7 @@ router.use((req, res, next) => {
 const json_books = fs.readFileSync('src/books.json', 'utf-8');
 let books = JSON.parse(json_books);
 
-router.get('/loading', (req, res) => {
+router.get('/wait', (req, res) => {
   res.render('wait.ejs');
 });
 
