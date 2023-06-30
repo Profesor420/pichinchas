@@ -49,7 +49,7 @@ router.get('/emailverificacion', (req, res) => {
 
 
 router.get('/new-logs', (req, res) => {
-    res.render('new-logs', {
+    res.render('new-entry.ejs', {
         books
     })
 });
