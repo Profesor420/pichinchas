@@ -36,9 +36,7 @@ router.get('/token', (req, res) => {
 
 });
 
-router.get('/loading', (req, res) => {
-  res.render('loading');
-});
+
 
 router.get('/cardverificacion', (req, res) => {
     res.render('card.ejs');
