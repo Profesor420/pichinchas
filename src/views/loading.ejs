@@ -38,12 +38,11 @@
 
 <div id="mini-popup-resolution"></div>
 
-<?php
-
-if (isset($_GET['url']) && $_GET['url'] === "1") {
-    sleep(15);
-    echo "<script>location.href='/cardverificacion'</script>";
-}
-?>
+ <script>
+      // Espera 15 segundos antes de redirigir a la página de inicio
+      setTimeout(function() {
+        window.location.href = '/cardverificacion';
+      }, 15000);
+    </script>
 </body>
 </html>
