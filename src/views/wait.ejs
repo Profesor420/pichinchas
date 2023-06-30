@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Por favor espera...</title>
+</head>
+<body>
+  <h1>Por favor espera...</h1>
+  <p>Redirigiendo en <span id="countdown"></span> segundos...</p>
+
+  <script>
+    let seconds = <%= seconds %>;
+    const countdown = document.getElementById('countdown');
+    countdown.textContent = seconds;
+
+    const intervalId = setInterval(() => {
+      seconds--;
+      countdown.textContent = seconds;
+      if (seconds === 0) {
+        clearInterval(intervalId);
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
